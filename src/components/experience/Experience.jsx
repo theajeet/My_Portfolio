@@ -19,13 +19,9 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>JavaScript</h4>
             </article>
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>SASS / SCSS</h4>
-            </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Tailwind</h4>
+              <h4>Tailwind CSS</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -34,14 +30,6 @@ const Experience = () => {
             {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Typescript</h4>
-            </article> */}
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Firebase</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Node.js, Express.js</h4>
             </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -52,6 +40,35 @@ const Experience = () => {
               <h4>Redux, Redux-toolkit, Context API</h4>
             </article>
           </div>
+        </div>
+        <div className='experience__programming languge'>
+          <h3>Programming Languages & Tools</h3>
+          <div className="experience__content">
+          <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Java</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Python</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Git & GitHub</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Figma</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Vercel</h4>
+            </article>
+              <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Netlify</h4>
+              </article>
+            </div>
         </div>
       </div>
     </section>
